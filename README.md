@@ -1,5 +1,6 @@
 # rest-java
 Desenvolva o programa em Java que apresente as seguintes funcionalidades:
+
 ■ Cadastro/consulta/remoção das pessoas (cadastre, pelo menos, cinco pessoas físicas e três pessoas jurídicas).
 ■ Mostrar todos os itens que estão no cardápio.
 ■ Cadastro/consulta e pesquisa de todos os restaurantes.
