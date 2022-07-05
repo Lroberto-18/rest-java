@@ -7,14 +7,12 @@ public class Restaurante {
     private int id;
     private ArrayList<Cardapio> cardapio = new ArrayList<Cardapio>();
     
-    public Restaurante(String endereco, String nome, String descricao, int id, Cardapio cardapio){
+    public Restaurante(String endereco, String nome, String descricao, int id){
         setEndereco(endereco);
         setNome(nome);
         setDescricao(descricao);
         setId(id);
-        this.cardapio.add(cardapio);
     }
-
     public String getEndereco(){
         return endereco;
     }
@@ -45,4 +43,9 @@ public class Restaurante {
     public void setCardapio(Cardapio cardapio){
         this.cardapio.add(cardapio);
     }
+    public String toString(){ 
+        String tostring ="Nome: "+this.nome+'\n'+"Endereço: "+this.endereco+'\n'+
+                        "Descrição: "+this.descricao+'\n'+"Id: "+this.id+'\n';
+        return tostring;
+   }
 }

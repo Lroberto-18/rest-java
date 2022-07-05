@@ -1,8 +1,9 @@
 public class Cardapio {
+    private int idRestaurante;
     private String produto;
     private String descricao;
     private String imagem;
-    private int id;
+    private int idProduto;
     private Double valor;
     
     public Cardapio(String produto, String descricao, String imagem,int id,Double valor){
@@ -37,10 +38,10 @@ public class Cardapio {
         this.imagem = imagem;
     }
     public int getId() {
-        return id;
+        return idProduto;
     }
     public void setId(int id) {
-        this.id = id;
+        this.idProduto = id;
     }
     public String toString(){ 
         String tostring ="Produto: "+getProduto()+'\n'+
@@ -50,4 +51,10 @@ public class Cardapio {
                         "Valor: "+getValor()+'\n';
         return tostring;
    }
+    public int getIdRestaurante() {
+        return idRestaurante;
+    }
+    public void setIdRestaurante(int idRestaurante) {
+        this.idRestaurante = idRestaurante;
+    }
 }
