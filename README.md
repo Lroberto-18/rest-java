@@ -1,4 +1,8 @@
-# rest-java
+<div style="display: inline_block" align="center"><br>
+  <img align="center" alt="Rafa-Java" height="150" width="160" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+</div>
+<h1 align="center">rest-java</h1>
+
 Desenvolva o programa em Java que apresente as seguintes funcionalidades:
 
 ■ Cadastro/consulta/remoção das pessoas (cadastre, pelo menos, cinco pessoas físicas e três pessoas jurídicas).
